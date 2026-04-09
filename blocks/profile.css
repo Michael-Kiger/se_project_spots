@@ -1,0 +1,105 @@
+.profile {
+    position: relative; /*new post button*/
+    top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    height: 210px;
+  }
+
+  .profile__avatar {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 505px;
+    height: 190px; /* Matches avatar height to enable bottom-pinning */
+  }
+
+  .profile__text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile__name {
+    margin: 0;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 500;
+    color: #000000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 400px;
+  }
+
+  .profile__description {
+    margin: 0 5px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .profile__edit-button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    height: 24px;
+    width: fit-content;
+    transition: opacity 0.2s linear;
+  }
+
+  .profile__edit-button:hover {
+    opacity: 0.6;
+  }
+
+  .profile__edit-icon {
+    margin-right: 1px;
+    padding: 2px;
+    font-size: 14px;
+    display: inline-block;
+    transform: rotate(45deg); /* Requested 45-degree rotation */
+  }
+
+  .profile__new-post-button {
+    position: absolute;
+    width: 149px;
+    height: 52px;
+    gap: 8px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 40px;
+    padding: 18px 32px 18px 32px;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #212121;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .profile__edit-text {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    color: #000000;
+  }
+
+  .profile__add-button {
+    margin-left: auto;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
