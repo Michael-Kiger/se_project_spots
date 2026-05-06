@@ -1,22 +1,24 @@
+/* Global */
+* {
+  box-sizing: border-box; /* restrict padding from increasing width of containers */
+}
+
 .page {
-    background-color: #FCF5E5;
-    color: #000000;
-    font-family: 'Poppins', Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    margin: 0;
-  }
+  background-color: #FCF5E5;
+  color: #000000;
+  font-family: 'Poppins', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  margin: 0 auto;
+}
 
-  .page__content {
-    max-width: 1280px;
-    min-width: 320px;
-    width: 100%;
-    margin: 0 auto;
-  }
+.page__content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
-  @media screen and (max-width: 1024px) {
-    .page__content { padding: 0 48px; }
-  }
+.content {
+  max-width: 1280px;
+  padding: 0 20px;
+}
 
-  @media screen and (max-width: 767px) {
-    .page__content { padding: 0 19px; }
-  }

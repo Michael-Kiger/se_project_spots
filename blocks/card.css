@@ -1,15 +1,21 @@
+.cards {
+  max-width: 1280px;
+}
+
 .cards__list {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 20px 0;
   list-style: none;
   display: grid;
   gap: 20px;
   justify-content: center;
+  justify-items: center; /* center card inside grid cell */
   /* 3 Columns, 2 Rows */
-  grid-template-areas: 
+  grid-template-areas:
     "card-a card-b card-c"
     "card-d card-e card-f";
   grid-template-columns: repeat(3, 1fr);
+  max-width: 1280px;
 }
 
 .card_area_a { grid-area: card-a; }
@@ -24,13 +30,14 @@
   border-radius: 10px;
   overflow: hidden;
   color: #000000;
-  width: 413px;
-  height: 445px;
+  width: 100%;
+  max-width: 413px;
+  height: auto;
 }
 
 .card__image {
-  width: 413px;
-  height: 413px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
 }
@@ -47,15 +54,16 @@
   font-size: 24px;
   font-weight: 900;
   line-height: 29px;
+  /* Text Content Control */
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 200px;
+  /* Text Content Control */
 }
 
 .card__like-button {
-  width: 22px;
-  height: 19px;
+  width: 23px;
+  height: 20px;
   border: none;
   cursor: pointer;
   /* Icon Specs*/
@@ -64,32 +72,46 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  opacity: 40%;
   transition: opacity 0.2s ease-in-out;
 }
 
 .card__like-button:hover {
-  opacity: 0.5;
+  opacity: 100%;
 }
 
 .card__like-button_active {
   background-image: url('../images/heart.svg');
 }
 
+
 /* Tablet (2 cols) */
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1320px) {
   .cards__list {
-    grid-template-areas: 
+    /* Reset areas to match 2 columns */
+    grid-template-areas:
       "card-a card-b"
       "card-c card-d"
       "card-e card-f";
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center; /* Centers cards within the new columns*/
   }
 }
 
 /* Mobile (1 col) */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 630px) {
   .cards__list {
-    grid-template-areas: "card-a" "card-b" "card-c" "card-d" "card-e" "card-f";
+    /* Reset areas to a single vertical track */
+    grid-template-areas:
+      "card-a"
+      "card-b"
+      "card-c"
+      "card-d"
+      "card-e"
+      "card-f";
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 }
+
+

@@ -2,13 +2,16 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    align-items: center;
+    padding: 0 20px; /* prevent logo touching edges */
+    box-sizing: border-box; /* prevent padding adding to width */
     height: 46px;
     border-bottom: 1px;
     border-radius: 5px;
     background-color: #FFFFFF
   }
-  
+
   .header__logo {
-    max-width: 173px;
-    height: auto;
+    max-width: 94px;
+    height: auto; /*maintain aspect ratio*/
   }
