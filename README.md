@@ -56,12 +56,19 @@ Implementing an Admin page accessed by user login providing color pallete contro
 ## 🖼️ Project Gallery
 
 ### Desktop View
-*(Placeholder for Desktop Screenshot)*
-> A 3-column grid showcasing large image cards with integrated like buttons. [cite: card.css]
+**[Spots Home page desktop view](./images/desktop-view-screenshot.png)**
+> A 3-column grid showcasing large image cards with integrated like buttons.
 
-### Tablet/Mobile View
-*(Placeholder for Mobile Screenshot)*
-> Stacked profile components and a single-column layout optimized for touch interaction. [cite: profile.css, card.css]
+### Tablet View
+**[Spots Home page tablet view](./images/tablet-view-screenshot.png)**
+> Stacked profile components two-column.
+
+### Mobile View
+**[Spots Home page tablet view](./images/mobile-view-screenshot.png)**
+> Stacked profile components and a one-column layout optimized for touch interaction.
+
+### Schema Markup Validation
+**[Schema.org Schema Validator screenshot](./images/schema.org-validation-screenshot.png)**
 
 ---
 
