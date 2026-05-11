@@ -9,7 +9,7 @@ A responsive, adaptive social media image-sharing application designed to showca
 
 SEO & Future Features: 
 
-SEO compliant page title, meta description limited to 160 characters or less to avoid truncating content in the rich snippet search engine listings. Keyword meta-still used by some search engines for ranking. SEO compliant H-tags, heading tags.
+SEO compliant page title, meta description limited to 160 characters or less to avoid truncating content in the rich snippet search engine listings. Keyword meta-still used by some search engines for ranking. SEO compliant H-tags, heading tags. Open Graph meta title, description and image tags.
 
 Schema Markup JSON-LD: 
 
