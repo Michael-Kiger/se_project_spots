@@ -76,6 +76,9 @@ Implementing an Admin page accessed by user login providing color pallete contro
 You can view the deployed project here:
 **[Spots Live on GitHub Pages](https://michael-kiger.github.io/se_project_spots/)**
 
+## Project Presentation Video
+**[Spots Adaptive Social Media Feed](https://www.loom.com/share/aae730d7fe35449b9ba799184c863898)**
+
 ---
 
 ## 👤 Author
