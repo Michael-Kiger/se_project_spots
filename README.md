@@ -5,10 +5,31 @@ A responsive, adaptive social media image-sharing application designed to showca
 ---
 
 ## 📸 Project Overview
-**Spots** is a front-end web application that allows users to view a curated collection of social media posts. The project focuses on a "Mobile First" design philosophy, ensuring that the profile information and image gallery adapt seamlessly to various screen sizes, from high-resolution desktops to mobile smartphones. [cite: index.html, page.css]
+**Spots** is a front-end web application that allows users to view a curated collection of social media posts. The project focuses on a scalable interactive design, ensuring that the profile information and image gallery adapt seamlessly to various screen sizes, from high-resolution desktops to mobile smartphones. 
+
+SEO & Future Features: 
+
+SEO compliant page title, meta description limited to 160 characters or less to avoid truncating content in the rich snippet search engine listings. Keyword meta-still used by some search engines for ranking. SEO compliant H-tags, heading tags.
+
+Schema Markup JSON-LD: 
+
+Key Schema Elements Used:
+Application Details: Defines "SPOTS" as a WebApplication, highlighting the CSS Grid layout and mobile-first approach.
+
+Author Integration: Uses the Software Engineer URL and title to verify the Software Engineer as the creator.
+
+Bessie Coleman Context: Correctly identifies her as a "Civil Aviator" within the application's profile context.
+
+Technical Features: Explicitly lists BEM methodology and HTML5 to improve search engine understanding of the code quality.
+
+Future Plans:
+
+Implementing an Admin page accessed by user login providing color pallete control and SEO related content editing: ie; page title, meta description, focus keywords making changes to SEO related content easy for a website Admin to implement as the website user base and page content grows.
+
+
 
 ### Key Features
-* **Adaptive Grid Layout**: A dynamic gallery that transitions from 3 columns on desktop to 1 column on mobile. [cite: card.css]
+* **Adaptive Grid Layout**: A dynamic gallery that transitions from 3 columns on desktop to 2 columns tablet view and 1 column on mobile. [cite: card.css]
 * **Interactive UI**: Hover effects on like buttons and profile edit icons. [cite: card.css, profile.css]
 * **Text Overflow Control**: Robust CSS handling for long titles and descriptions using ellipsis and multi-line clamping. [cite: card.css, profile.css]
 * **Polished Typography**: Utilizes the 'Poppins' font family for a professional, accessible aesthetic. [cite: page.css]
