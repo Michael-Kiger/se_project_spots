@@ -64,7 +64,7 @@ Implementing an Admin page accessed by user login providing color pallete contro
 > Stacked profile components two-column.
 
 ### Mobile View
-**[Spots Home page tablet view](./images/mobile-view-screenshot.png)**
+**[Spots Home page mobile view](./images/mobile-view-screenshot.png)**
 > Stacked profile components and a one-column layout optimized for touch interaction.
 
 ### Schema Markup Validation
